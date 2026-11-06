@@ -1,0 +1,7 @@
+warehouse_id,warehouse_name,city,country,region,capacity_sqft,utilization_pct,temperature_controlled,daily_throughput
+WH-RTM-01,Rotterdam Europort Super-Hub,Rotterdam,Netherlands,EMEA,850000,84.5,True,75000
+WH-SIN-02,Singapore Tuas Logistics Gateway,Singapore,Singapore,APAC,1100000,91.2,True,95000
+WH-LGB-03,Long Beach Port Complex Terminal,Long Beach,United States,North America,920000,79.8,True,82000
+WH-HAM-04,Hamburg Logistics City Hub,Hamburg,Germany,EMEA,650000,76.0,False,52000
+WH-DXB-05,Dubai Jebel Ali Freezone Hub,Dubai,United Arab Emirates,Middle East,780000,73.4,True,64000
+WH-ORD-06,Chicago O'Hare Intermodal Logistics,Chicago,United States,North America,700000,82.0,True,58000

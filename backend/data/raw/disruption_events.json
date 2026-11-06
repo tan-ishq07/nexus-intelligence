@@ -1,0 +1,38 @@
+[
+  {
+    "event_id": "EVT-GEO-01",
+    "name": "Red Sea Shipping Rerouting",
+    "type": "Geopolitical Threat",
+    "affected_corridor": "Bab el-Mandeb",
+    "severity": "Critical",
+    "cost_impact_usd": 2400000,
+    "delay_days": 12.0
+  },
+  {
+    "event_id": "EVT-MET-02",
+    "name": "Typhoon Malakas Luzon Strait",
+    "type": "Weather Cyclone",
+    "affected_corridor": "South China Sea",
+    "severity": "High",
+    "cost_impact_usd": 680000,
+    "delay_days": 3.0
+  },
+  {
+    "event_id": "EVT-LAB-03",
+    "name": "Hamburg Port Dockworkers Warning Strike",
+    "type": "Labor Dispute",
+    "affected_corridor": "Europort Access",
+    "severity": "Medium",
+    "cost_impact_usd": 320000,
+    "delay_days": 2.5
+  },
+  {
+    "event_id": "EVT-GEO-04",
+    "name": "Valemount DR Congo Mining Suspension",
+    "type": "Regulatory Compliance",
+    "affected_corridor": "African Mineral Export",
+    "severity": "Critical",
+    "cost_impact_usd": 4500000,
+    "delay_days": 35.0
+  }
+]

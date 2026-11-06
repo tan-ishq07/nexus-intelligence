@@ -1,0 +1,10 @@
+supplier_id,supplier_name,tier,category,country,city,financial_rating,risk_score,esg_score,delivery_reliability_pct
+SUP-TSMC-01,Taiwan Semiconductor Mfg Co,Tier 1,Semiconductors,Taiwan,Hsinchu,98.0,38.5,88.0,97.4
+SUP-ASML-02,ASML Lithography Systems,Tier 1,Photolithography Core,Netherlands,Veldhoven,99.5,14.2,94.0,99.1
+SUP-SMSNG-03,Samsung Foundry Electronics,Tier 1,Memory & Logic,South Korea,Suwon,96.0,26.0,82.0,95.8
+SUP-BSCH-04,Bosch Global Powertrain & Sensor,Tier 1,Automotive Telematics,Germany,Stuttgart,92.0,19.8,91.0,96.5
+SUP-FXCN-05,Foxconn Precision Electronics,Tier 2,Sub-Assembly Systems,China,Shenzhen,88.0,44.0,70.0,91.2
+SUP-INF-06,Infineon Technologies Silicon,Tier 1,Power Semiconductors,Germany,Dresden,94.0,16.5,89.0,98.2
+SUP-TI-09,Texas Instruments Analog,Tier 1,Embedded Processors,United States,Dallas,98.5,11.0,88.0,99.0
+SUP-VMNT-11,Valemount Rare Earth Extractor,Tier 3,Neodymium & Dysprosium,DR Congo,Kolwezi,64.0,82.5,52.0,78.4
+SUP-NLR-12,Nordic Lithium Refining AB,Tier 2,Battery Chemical Grade,Sweden,Skellefteå,89.0,18.0,96.0,95.0

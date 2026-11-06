@@ -1,0 +1,25 @@
+sku,product_id,product_name,category,warehouse_id,stock_on_hand,safety_stock,reorder_point,lead_time_days,unit_cost_usd
+SKU-PRD-SOC-3NM-WH-RTM-01,PRD-SOC-3NM,3nm Neural Engine SoC Gen 4,Advanced Processors,WH-RTM-01,4226,2088,2923,45,850.0
+SKU-PRD-SOC-3NM-WH-SIN-02,PRD-SOC-3NM,3nm Neural Engine SoC Gen 4,Advanced Processors,WH-SIN-02,6950,3925,5495,44,850.0
+SKU-PRD-SOC-3NM-WH-LGB-03,PRD-SOC-3NM,3nm Neural Engine SoC Gen 4,Advanced Processors,WH-LGB-03,1199,391,547,38,850.0
+SKU-PRD-SOC-3NM-WH-HAM-04,PRD-SOC-3NM,3nm Neural Engine SoC Gen 4,Advanced Processors,WH-HAM-04,2448,1042,1458,29,850.0
+SKU-PRD-HBM-24G-WH-RTM-01,PRD-HBM-24G,HBM3e Stacked Memory Die 24GB,Memory Systems,WH-RTM-01,10534,6301,8821,15,320.0
+SKU-PRD-HBM-24G-WH-SIN-02,PRD-HBM-24G,HBM3e Stacked Memory Die 24GB,Memory Systems,WH-SIN-02,6466,3456,4838,36,320.0
+SKU-PRD-HBM-24G-WH-LGB-03,PRD-HBM-24G,HBM3e Stacked Memory Die 24GB,Memory Systems,WH-LGB-03,8059,3734,5227,45,320.0
+SKU-PRD-HBM-24G-WH-HAM-04,PRD-HBM-24G,HBM3e Stacked Memory Die 24GB,Memory Systems,WH-HAM-04,5836,3348,4687,34,320.0
+SKU-PRD-EUV-MEM-WH-RTM-01,PRD-EUV-MEM,EUV Pellicle Ultra-Pure Membrane,Fabrication Consumables,WH-RTM-01,6563,2501,3501,15,14500.0
+SKU-PRD-EUV-MEM-WH-SIN-02,PRD-EUV-MEM,EUV Pellicle Ultra-Pure Membrane,Fabrication Consumables,WH-SIN-02,5424,2598,3637,15,14500.0
+SKU-PRD-EUV-MEM-WH-LGB-03,PRD-EUV-MEM,EUV Pellicle Ultra-Pure Membrane,Fabrication Consumables,WH-LGB-03,14876,8080,11312,31,14500.0
+SKU-PRD-EUV-MEM-WH-HAM-04,PRD-EUV-MEM,EUV Pellicle Ultra-Pure Membrane,Fabrication Consumables,WH-HAM-04,1159,628,879,44,14500.0
+SKU-PRD-SIC-120-WH-RTM-01,PRD-SIC-120,Silicon Carbide Power MOSFET 1200V,Power Electrification,WH-RTM-01,8874,3613,5058,28,45.0
+SKU-PRD-SIC-120-WH-SIN-02,PRD-SIC-120,Silicon Carbide Power MOSFET 1200V,Power Electrification,WH-SIN-02,2815,929,1300,29,45.0
+SKU-PRD-SIC-120-WH-LGB-03,PRD-SIC-120,Silicon Carbide Power MOSFET 1200V,Power Electrification,WH-LGB-03,4566,2100,2940,17,45.0
+SKU-PRD-SIC-120-WH-HAM-04,PRD-SIC-120,Silicon Carbide Power MOSFET 1200V,Power Electrification,WH-HAM-04,12718,7617,10663,28,45.0
+SKU-PRD-NEO-MAG-WH-RTM-01,PRD-NEO-MAG,Neodymium-Dysprosium Sintered Magnet,Rare Earth Materials,WH-RTM-01,9632,5335,7468,38,180.0
+SKU-PRD-NEO-MAG-WH-SIN-02,PRD-NEO-MAG,Neodymium-Dysprosium Sintered Magnet,Rare Earth Materials,WH-SIN-02,6013,3490,4886,25,180.0
+SKU-PRD-NEO-MAG-WH-LGB-03,PRD-NEO-MAG,Neodymium-Dysprosium Sintered Magnet,Rare Earth Materials,WH-LGB-03,3085,1144,1601,34,180.0
+SKU-PRD-NEO-MAG-WH-HAM-04,PRD-NEO-MAG,Neodymium-Dysprosium Sintered Magnet,Rare Earth Materials,WH-HAM-04,13408,6991,9787,36,180.0
+SKU-PRD-LITH-BAT-WH-RTM-01,PRD-LITH-BAT,Cathode Grade Lithium Hydroxide Purity 99.5%,Chemical Feedstock,WH-RTM-01,9892,3051,4271,36,38.0
+SKU-PRD-LITH-BAT-WH-SIN-02,PRD-LITH-BAT,Cathode Grade Lithium Hydroxide Purity 99.5%,Chemical Feedstock,WH-SIN-02,9500,4456,6238,26,38.0
+SKU-PRD-LITH-BAT-WH-LGB-03,PRD-LITH-BAT,Cathode Grade Lithium Hydroxide Purity 99.5%,Chemical Feedstock,WH-LGB-03,13908,8294,11611,45,38.0
+SKU-PRD-LITH-BAT-WH-HAM-04,PRD-LITH-BAT,Cathode Grade Lithium Hydroxide Purity 99.5%,Chemical Feedstock,WH-HAM-04,9082,3566,4992,45,38.0
