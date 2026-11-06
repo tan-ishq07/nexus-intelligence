@@ -1,32 +1,49 @@
 import os
-from typing import List
-from pydantic_settings import BaseSettings
+import json
+from typing import List, Union
+from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic import field_validator
 
 class Settings(BaseSettings):
     PROJECT_NAME: str = "NEXUS INTELLIGENCE"
     VERSION: str = "1.0.0-ENTERPRISE"
     API_V1_STR: str = "/api/v1"
-    ENVIRONMENT: str = os.getenv("ENVIRONMENT", "development")
-    
-    # Database
-    DATABASE_URL: str = os.getenv(
-        "DATABASE_URL", 
-        "sqlite:///./nexus_intelligence.db"
-    ).replace("postgres://", "postgresql://", 1) if os.getenv("DATABASE_URL", "").startswith("postgres://") else os.getenv("DATABASE_URL", "sqlite:///./nexus_intelligence.db")
-    
-    # CORS
-    CORS_ORIGINS: List[str] = [
-        origin.strip() for origin in os.getenv(
-            "CORS_ORIGINS",
-            "http://localhost:3000,http://127.0.0.1:3000,http://localhost:8000,https://frontend-sage-six-23.vercel.app,*"
-        ).split(",") if origin.strip()
+    ENVIRONMENT: str = "development"
+    DATABASE_URL: str = "sqlite:///./nexus_intelligence.db"
+    CORS_ORIGINS: Union[List[str], str] = [
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://localhost:8000",
+        "https://frontend-sage-six-23.vercel.app",
+        "*"
     ]
-    
-    # Host / Port
-    HOST: str = os.getenv("API_HOST", "0.0.0.0")
-    PORT: int = int(os.getenv("PORT", os.getenv("API_PORT", "8000")))
+    HOST: str = "0.0.0.0"
+    PORT: int = 8000
 
-    class Config:
-        case_sensitive = True
+    model_config = SettingsConfigDict(case_sensitive=True, extra="ignore")
+
+    @field_validator("DATABASE_URL", mode="before")
+    @classmethod
+    def assemble_db_url(cls, v: str) -> str:
+        if isinstance(v, str) and v.startswith("postgres://"):
+            return v.replace("postgres://", "postgresql://", 1)
+        return v
+
+    @field_validator("CORS_ORIGINS", mode="before")
+    @classmethod
+    def assemble_cors_origins(cls, v: Union[str, List[str]]) -> List[str]:
+        if isinstance(v, str):
+            if v.startswith("[") and v.endswith("]"):
+                try:
+                    return json.loads(v)
+                except Exception:
+                    pass
+            return [i.strip() for i in v.split(",") if i.strip()]
+        return v
+
+    @field_validator("PORT", mode="before")
+    @classmethod
+    def assemble_port(cls, v: Union[str, int]) -> int:
+        return int(v)
 
 settings = Settings()
